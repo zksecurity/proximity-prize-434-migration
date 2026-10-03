@@ -1,0 +1,18 @@
+submission files: 5
+--- rendered claim ---
+theorem candidate :
+    ProtocolClaimUpper 11613 122369 := by
+  sorry
+--- build 13:52:06 ---
+⚠ [3824/3824] Built ProximityPrize.SubmissionUpper.Solution (2.1s)
+warning: ProximityPrize/SubmissionUpper/Solution.lean:38:4: exponent 11613 exceeds the threshold 256, exponentiation operation was not evaluated, use `set_option exponentiation.threshold <num>` to set a new threshold
+Build completed successfully (3824 jobs).
+--- comparator 13:53:26 ---
+warning: ProximityPrize/SubmissionUpper/Solution.lean:38:4: exponent 11613 exceeds the threshold 256, exponentiation operation was not evaluated, use `set_option exponentiation.threshold <num>` to set a new threshold
+Build completed successfully (3823 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, ProximityPrize.Benchmark.Upper.candidate, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from ProximityPrize.SubmissionUpper.Solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+MIGRATION-RESULT reduction-upper: ACCEPTED at score 11613 13:54:52
+

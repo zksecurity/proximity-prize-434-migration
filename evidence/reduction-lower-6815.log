@@ -1,0 +1,18 @@
+submission files: 153
+--- rendered claim ---
+theorem candidate :
+    ProtocolClaim 6815 331366399 1073741824 := by
+  sorry
+--- build 21:22:18 ---
+ℹ [4296/4296] Built ProximityPrize.SubmissionLower.Solution (2.1s)
+info: ProximityPrize/SubmissionLower/Solution.lean:7:0: 'ProximityPrize.Benchmark.candidate' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (4296 jobs).
+--- comparator 22:10:46 ---
+info: ProximityPrize/SubmissionLower/Solution.lean:7:0: 'ProximityPrize.Benchmark.candidate' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (4295 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, ProximityPrize.Benchmark.candidate, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from ProximityPrize.SubmissionLower.Solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+MIGRATION-RESULT reduction-lower: ACCEPTED at score 6815 00:37:46
+
